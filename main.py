@@ -233,10 +233,10 @@ def countscore(J1, J2):
 #   Création du joueur 1
 J1 = player()
 J1.name = "joueur 1"
-J1.sujet, J1.faiblesse_sujet = randmot(r"Projet combat d'insultes\Maps\Bar\sujet.txt", 6)
-J1.verbe, J1.faiblesse_verbe = randmot(r"Projet combat d'insultes\Maps\Bar\verbe.txt", 6)
-J1.complement, J1.faiblesse_complement = randmot(r"Projet combat d'insultes\Maps\Bar\complement.txt", 6)
-J1.liaisons, J1.faiblesse_liaisons = randmot(r"Projet combat d'insultes\Maps\Bar\liaison.txt", 6)
+J1.sujet, J1.faiblesse_sujet = randmot(r"Maps\Bar\sujet.txt", 6)
+J1.verbe, J1.faiblesse_verbe = randmot(r"Maps\Bar\verbe.txt", 6)
+J1.complement, J1.faiblesse_complement = randmot(r"Maps\Bar\complement.txt", 6)
+J1.liaisons, J1.faiblesse_liaisons = randmot(r"Maps\Bar\liaison.txt", 6)
 J1.tab = [J1.sujet, J1.verbe, J1.complement, J1.liaisons]
 J1.faiblesse_tab = [J1.faiblesse_sujet, J1.faiblesse_verbe, J1.faiblesse_complement, J1.faiblesse_liaisons]
 
@@ -244,10 +244,10 @@ J1.faiblesse_tab = [J1.faiblesse_sujet, J1.faiblesse_verbe, J1.faiblesse_complem
 #Création du joueur 2
 J2 = player()
 J2.name = "joueur 2"
-J2.sujet, J2.faiblesse_sujet = randmot(r"Projet combat d'insultes\Maps\Bar\sujet.txt", 6)
-J2.verbe, J2.faiblesse_verbe = randmot(r"Projet combat d'insultes\Maps\Bar\verbe.txt", 6)
-J2.complement, J2.faiblesse_complement = randmot(r"Projet combat d'insultes\Maps\Bar\completement.txt", 6)
-J2.liaisons, J2.faiblesse_liaisons = randmot(r"Projet combat d'insultes\Maps\Bar\liaison.txt", 6)
+J2.sujet, J2.faiblesse_sujet = randmot(r"Maps\Bar\sujet.txt", 6)
+J2.verbe, J2.faiblesse_verbe = randmot(r"Maps\Bar\verbe.txt", 6)
+J2.complement, J2.faiblesse_complement = randmot(r"Maps\Bar\complement.txt", 6)
+J2.liaisons, J2.faiblesse_liaisons = randmot(r"Maps\Bar\liaison.txt", 6)
 J2.tab = [J2.sujet, J2.verbe, J2.complement, J2.liaisons]
 J2.faiblesse_tab = [J2.faiblesse_sujet, J2.faiblesse_verbe, J2.faiblesse_complement, J2.faiblesse_liaisons]
 
