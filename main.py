@@ -4,9 +4,9 @@ maps = ["Bar", "Deauville", "Marseille", "Barbes", "Rio", "Chicago", "auchan"]#l
 characters = [["François Hollande", "poids", "nez", "cheveux"],#liste des personnages
               ["Obélix", "poids", "nez", "intelligence"],
               ["Cyrano de Bergerac", "nez"],
-              ["Koba lad", "intelligence", "cheveux", "drogue", "alcool"]
-              ["Jordan Belfort", "drogue", "alcool"]
-              ["Remi sans famille", "famille", "animaux", "cheveux"]
+              ["Koba lad", "intelligence", "cheveux", "drogue", "alcool"],
+              ["Jordan Belfort", "drogue", "alcool"],
+              ["Remi sans famille", "famille", "animaux", "cheveux"],
               ["Mister Bean", "intelligence", "cheveux", "nez"]]
 
 
